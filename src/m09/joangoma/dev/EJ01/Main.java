@@ -10,7 +10,7 @@ public class Main {
             System.out.println("Por favor introduce el DNI sin letra, 0 para salir");
             numDNI = Integer.parseInt(scanner.nextLine());
             while (scanner.hasNextInt()) {
-                numDNI.add(scanner.nextInt());
+                numDNI=0;
             }
             if(numDNI == 0){ return;}
 
