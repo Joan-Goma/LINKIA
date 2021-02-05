@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void inicio() {
+    public static void main(String [] Args) {
         int numDNI;
         Scanner scanner = new Scanner(System.in);       
         do {
             System.out.println("Por favor introduce el DNI sin letra, 0 para salir");     
             numDNI = Integer.parseInt(scanner.nextLine());
-            if(numDNI == 0){ return;}
+            if(numDNI == 0){ System.out.println("Gracias por utilizar el programa, que vaya bien!");return;}
             System.out.println(numDNI + calcDNI(numDNI));
         } while (true);
     }

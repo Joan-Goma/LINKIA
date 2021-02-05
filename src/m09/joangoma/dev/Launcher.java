@@ -13,7 +13,7 @@ public class Launcher {
             int opMenu = scanner.nextInt();
             switch (opMenu) {
                 case 0 -> {System.out.println("Gracias por utilizar el Launcher, hasta otra!");validate =true;}
-                case 1 -> m09.joangoma.dev.EJ01.Main.inicio();
+
                 default -> throw new IllegalStateException("No se ha podido reconocer el DNI, compruebalo e intentalo de nuevo");
             }
         } while (validate == false);
