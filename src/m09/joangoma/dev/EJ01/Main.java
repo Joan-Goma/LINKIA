@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int numDNI;
-        int charDNI = 0;
-        Scanner scanner = new Scanner(System.in);
+        int charDNI = 2;
+        Scanner scanner = new Scanner(System.in);       
         do {
             System.out.println("Por favor introduce el DNI sin letra, 0 para salir");     
             numDNI = Integer.parseInt(scanner.nextLine());
