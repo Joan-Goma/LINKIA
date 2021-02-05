@@ -40,7 +40,7 @@ public class Main {
             case 20 -> "C";
             case 21 -> "K";
             case 22 -> "E";
-            default -> throw new IllegalStateException("Valor no de: " + result);
+            default -> throw new IllegalStateException("No se ha podido reconocer el DNI, compruebalo e intentalo de nuevo");
         };
     }
 
