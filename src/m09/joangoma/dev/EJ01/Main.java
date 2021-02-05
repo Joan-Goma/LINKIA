@@ -4,14 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int numDNI;
-        Scanner scanner = new Scanner(System.in);       
-        do {
-            System.out.println("Por favor introduce el DNI sin letra, 0 para salir");     
-            numDNI = Integer.parseInt(scanner.nextLine());
-            if(numDNI == 0){ return;}
-            System.out.println(numDNI + calcDNI(numDNI));
-        } while (true);
+        int numDNI = 49347661;      
+        System.out.println("Por favor introduce el DNI sin letra, 0 para salir");     
+        System.out.println(numDNI + calcDNI(numDNI));
     }
 
     public static String calcDNI(int DNI){
