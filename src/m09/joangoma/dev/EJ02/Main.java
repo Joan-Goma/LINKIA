@@ -1,10 +1,9 @@
-package m09.joangoma.dev.EJ01;
+package m09.joangoma.dev.EJ02;
 
 import java.util.Scanner;
 
 public class Main {
-
-    public static void inicio() {
+    public static void main() {
         int numDNI;
         Scanner scanner = new Scanner(System.in);       
         do {
